@@ -1,10 +1,7 @@
-# Physically Based Rendering 3D Gaussian for Indoor Complex Light Environment
+# PBR-GS
 Jiayi Z<br>
 
-This repository contains the official authors implementation associated with the paper "Physically Based Rendering 3D Gaussian for Indoor Complex Light Environment", which can be found [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/). 
-
-Abstract: *Recently, the emergence of 3D Gaussian Splatting (3DGS) has facilitated the development of real-time generation of high-quality new perspective synthesis. However, when applied to the reconstruction of complex indoor 3D scenes, especially when the global light in the scene interacts with different material surfaces, it still faces challenges such as reflection deformation and discontinuity of irregular smooth surfaces, and the deviation of light scattering in semi-transparent media from the actual situation. To address the above problems, this paper proposes PBR-GS on the basis of 3DGS, which integrates the theory of microfacet modeling, and constructs a physically-based rendering (PBR) decoupled computing system by assigning each Gaussian ellipsoid with a set of physical illumination parameters, such as normal vector, roughness, metallicity, and albedo. The diffuse reflection term, specular reflection term, and ambient light are modeled respectively to better simulate the reflective polarization difference of different material interfaces and the anisotropic scattering attenuation process of the rough surface in the indoor complex light field, so as to realize the physical consistency simulation of the light transmission and the high-fidelity rendering of the material details. Experimental results demonstrate that the method in this paper can better simulate the phenomena of reflection, scattering, and ambient light masking on different material surfaces in the room than the comparison methods, and present a more realistic quality of details.*
-
+This repository contains the official authors implementation associated with the paper "Physically Based Rendering 3D Gaussian for Indoor Complex Light Environment", which can be found [here](https://github.com/Gloriazjy/PBR-GS). 
 
 ### Hardware Requirements
 
