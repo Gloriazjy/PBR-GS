@@ -1,7 +1,23 @@
 # PBR-GS
 Jiayi Z<br>
 
-This repository contains the official authors implementation associated with the paper "Physically Based Rendering 3D Gaussian for Indoor Complex Light Environment", which can be found [here](https://github.com/Gloriazjy/PBR-GS). 
+This repository contains the official authors implementation associated with the paper "Enhanced Indoor Scene Rendering: Physically Based 3D Gaussian Splatting for Complex Light Environments", which can be found [here](https://github.com/Gloriazjy/PBR-GS). 
+
+Abstract:*High-fidelity 3D scene reconstruction is pivotal for applications spanning augmented reality, robotics and architectural visualization. Recently, the emergence of 3D Gaussian Splatting (3DGS) has facilitated the development of real-time generation of high-quality new perspective synthesis. Indoor scenes often involve intricate interactions between global illumination and diverse material surfaces. Existing 3DGS methods for indoor reflective objects rendering typically rely on simplified lighting models, inadequate in subsurface scattering and multi-bounce light transport scenarios. These oversights lead to visual artifacts like reflection distortions and inconsistent surface appearances. To address the above problems, this paper proposes PBR-GS on the basis of 3DGS, which integrates the theory of microfacet modeling, and constructs a physically-based rendering (PBR) decoupled computing system by assigning each Gaussian ellipsoid with a set of physical illumination parameters, such as normal, roughness, metallicity and albedo. By decoupling diffuse reflection, specular reflection and ambient light terms, PBR-GS can better simulate the reflective polarization difference of different material interfaces and the anisotropic scattering attenuation process of the rough surface. Additionally, this paper proposes a hybrid lighting model, enabling high-frequency rendering of direct lighting and specular reflections, while preserving the ambient light modeling capabilities intrinsic to traditional 3DGS via spherical harmonics (SH) coefficients. Experimental results demonstrate PBR-GS's superiority in simulating complex reflections, outperforming the prior methods with 0.16 dB higher PSNR and 0.003 LPIPS in average.*
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@Article{PBR-GS,
+      author       = {Jiayi Zhou},
+      title        = {Enhanced Indoor Scene Rendering: Physically Based 3D Gaussian Splatting for Complex Light Environments},
+      journal      = {The Visual Computer},
+      month        = {July},
+      year         = {2025},
+      url          = {https://github.com/Gloriazjy/PBR-GS/}
+}</code></pre>
+  </div>
+</section>
 
 ### Hardware Requirements
 
